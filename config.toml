@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://errors.wtf/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "error messages"
 theme = "tale"
