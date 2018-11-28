@@ -11,7 +11,7 @@ body {
   padding: 0; }
 
 html {
-  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 14px;
   overflow-y: scroll; }
   @media (min-width: 600px) {
@@ -92,7 +92,7 @@ pre code {
     user-select: none; }
 
 .post {
-  padding: 3rem 0; }
+  padding: 1rem 0 3rem 0; }
   .post-info {
     color: #aaa;
     font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", "Georgia", serif;
@@ -103,9 +103,8 @@ pre code {
   .post-title {
     color: #353535;
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-    font-size: 4rem;
-    margin: 1rem 0;
-    text-align: center; }
+    font-size: 3rem;
+    margin: 1rem 0; }
   .post-line {
     border-top: 0.4rem solid #353535;
     display: block;

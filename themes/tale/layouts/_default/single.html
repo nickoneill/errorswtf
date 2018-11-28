@@ -2,7 +2,6 @@
 
 <main>
 	<div class="post">
-		{{ partial "single/post-info.html" . }}
 		{{ partial "single/title.html" . }}
 
 		{{ partial "single/header.html" . }}
@@ -19,8 +18,6 @@
 		{{- if .NextPage }}
 		<a href="{{ .NextPage.URL }}" class="right arrow">&#8594;</a>
 		{{- end }}
-
-		<a href="#" class="top">Top</a>
 	</div>
 </main>
 

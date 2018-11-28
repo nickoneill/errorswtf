@@ -1,4 +1,11 @@
 baseURL = "https://errors.wtf/"
 languageCode = "en-us"
-title = "error messages"
+title = "errors.wtf"
 theme = "tale"
+
+[params]
+  description = "your favorite inscrutable error messages and how to fix them"
+
+[author]
+  homepage = "http://nickoneill.name"
+  name = "Nick O'Neill"
