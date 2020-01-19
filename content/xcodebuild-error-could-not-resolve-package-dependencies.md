@@ -1,6 +1,6 @@
 ---
-title: "Testing with Fastlane and Swift Package Manager on CircleCI / Bitrise: xcodebuild: error: Could not resolve package dependencies"
-date: 2020-01-19T17:00:14-08:00
+title: "xcodebuild: error: Could not resolve package dependencies with Fastlane and Swift Package Manager on CircleCI / Bitrise"
+date: 2020-01-18T17:00:14-08:00
 ---
 
 ## The Problem
