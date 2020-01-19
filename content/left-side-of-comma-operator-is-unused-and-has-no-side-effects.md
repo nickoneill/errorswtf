@@ -16,7 +16,7 @@ render() {
 }
 {{< / highlight >}}
 
-The `render` function of a React component expects a single element to be returned here, but it's getting two
+The `render` function of a React component expects a single element to be returned here but you're passing two, the `h1` and `h2`.
 
 
 ## The Solution
@@ -47,4 +47,4 @@ render() {
 }
 {{< / highlight >}}
 
-Or sometimes it's a good idea to break one of these elements into its own 
+Or sometimes it's a good idea to break one of these elements into its own component, further reducing the amount of complexity in a single place.
