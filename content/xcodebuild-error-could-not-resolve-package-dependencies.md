@@ -7,7 +7,7 @@ date: 2020-01-18T17:00:14-08:00
 
 If you're running tests on your iOS build CI pipeline with fastlane, you might run into an issue when running `scan` using Xcode 11+ if you've got some Swift package manager dependencies. The full error might look like this:
 
-{{< highlight >}}
+{{< highlight txt >}}
 [18:44:50]: ------------------
 [18:44:50]: --- Step: scan ---
 [18:44:50]: ------------------

@@ -7,7 +7,7 @@ date: 2020-01-19T10:00:14-08:00
 
 If you're trying to use the [homebridge-camera-ffmpeg](https://github.com/KhaosT/homebridge-camera-ffmpeg) plugin for homebridge to connect your IP camera to Homekit, you may have run into issues with ffmpeg exiting with `code 1` when trying to stream. This usually means ffmpeg can't launch with the options provided in your camera configuration, but many different things can be going wrong and it's hard to debug.
 
-{{< highlight >}}
+{{< highlight txt >}}
 [1/18/2020, 8:27:54 PM] [Camera-ffmpeg] Snapshot from Front door at 480x270
 [1/18/2020, 8:27:56 PM] [Camera-ffmpeg] Start streaming video from Front door with 1280x720@299kBit
 [1/18/2020, 8:27:56 PM] [Camera-ffmpeg] ERROR: FFmpeg exited with code 1
@@ -19,7 +19,7 @@ There are lots of ways this can go wrong, so here are some steps to figure out w
 
 First, confirm `ffmpeg` is installed and runs on your homebridge server. Just run `ffmpeg` at the command line and confirm it runs. Here's what running it successfully looks like:
 
-{{< highlight >}}
+{{< highlight txt >}}
 ffmpeg version 2.8.15-0ubuntu0.16.04.1 Copyright (c) 2000-2018 the FFmpeg developers
   built with gcc 5.4.0 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 20160609
   configuration: --prefix=/usr --extra-version=0ubuntu0.16.04.1 --build-suffix=-ffmpeg --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu... etc
@@ -30,7 +30,7 @@ You may want to note the codecs that `ffmpeg` has been installed with. For my pa
 
 Next, you need to make sure you have the right video and image source URLs for your axis camera. There are quite a few variations. Here is how the full configuration looks:
 
-{{< highlight >}}
+{{< highlight json >}}
 {
   "platform": "Camera-ffmpeg",
   "cameras": [
@@ -54,7 +54,7 @@ Both `source` and `stillImageSource` urls can be looked up on [this axis endpoin
 
 Lastly, if you still can't figure out what's going wrong, enable debug mode for your `homebridge-camera-ffmpeg` source and get more information:
 
-{{< highlight >}}
+{{< highlight json >}}
 ...
   "maxFPS": 30,
   "vcodec": "h264",
