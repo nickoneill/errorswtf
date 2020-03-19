@@ -1,9 +1,11 @@
 ---
 title: "openjdk cannot be opened because the developer cannot be verified when installing adb via brew"
-date: 2020-03-19T10:00:14-08:00
+date: 2020-03-19T8:00:14-08:00
 ---
 
 ## The Problem
+![openjdk cannot be opened because the developer cannot be verified when installing adb via brew](/images/openjdk-cannot-be-opened-because-the-developer-cannot-be-verified.png)
+
 If you're like me and enjoy the simplicity of installing command line tools using the `brew` command on macOS, you've likely run into one or two cases where Catalina prevents you from running a tool that's been installed because it hasn't been verified.
 
 In this case, I'm installing the android developer tools for React Native development and needed both `adb` and `openjdk`. I've used both of these commands to install them:
