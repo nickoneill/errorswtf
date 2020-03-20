@@ -1,5 +1,6 @@
 ---
 title: "xcodebuild: error: Could not resolve package dependencies with Fastlane and Swift Package Manager on CircleCI / Bitrise"
+description: "If you're running tests on your iOS build CI pipeline with fastlane, you might run into an issue when running scan using Xcode 11+ if you've got some Swift package manager dependencies."
 date: 2020-01-18T17:00:14-08:00
 ---
 

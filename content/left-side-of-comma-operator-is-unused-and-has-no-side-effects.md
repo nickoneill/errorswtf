@@ -1,5 +1,6 @@
 ---
 title: "React: Left side of comma operator is unused and has no side effects"
+description: "The render function of a React component expects a single element to be returned here but you're passing two."
 date: 2018-11-24T17:00:14-08:00
 ---
 

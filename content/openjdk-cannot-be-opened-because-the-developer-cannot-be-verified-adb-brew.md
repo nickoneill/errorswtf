@@ -1,5 +1,6 @@
 ---
 title: "openjdk cannot be opened because the developer cannot be verified when installing adb via brew"
+description: "You've likely run into one or two cases where Catalina prevents you from running a tool that's been installed because it hasn't been verified."
 date: 2020-03-19T8:00:14-08:00
 ---
 

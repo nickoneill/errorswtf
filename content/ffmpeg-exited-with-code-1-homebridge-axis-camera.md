@@ -1,5 +1,6 @@
 ---
 title: "FFmpeg exited with code 1, Homebridge and Homekit configuration with Axis camera"
+description: "When connecting your IP camera to Homekit, you may have run into issues with ffmpeg exiting with code 1 when trying to stream."
 date: 2020-01-19T10:00:14-08:00
 ---
 

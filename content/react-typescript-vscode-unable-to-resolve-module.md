@@ -1,5 +1,6 @@
 ---
 title: "React Native, Typescript and VS Code: Unable to resolve module"
+description: "The problem with resolving modules turned out to be related to VS Code's typescript project helper."
 date: 2020-02-11T10:00:14-08:00
 ---
 
