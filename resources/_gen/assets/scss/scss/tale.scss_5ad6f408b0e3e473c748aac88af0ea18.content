@@ -112,7 +112,8 @@ pre code {
     width: 4rem; }
   .post p {
     margin: 0 0 1rem;
-    text-align: justify; }
+    text-align: justify;
+    font-size: 1.2rem; }
   .post a:hover {
     text-decoration: underline; }
   .post img {

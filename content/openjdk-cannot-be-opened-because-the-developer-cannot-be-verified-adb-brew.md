@@ -11,8 +11,8 @@ If you're like me and enjoy the simplicity of installing command line tools usin
 
 In this case, I'm installing the android developer tools for React Native development and needed both `adb` and `openjdk`. I've used both of these commands to install them:
 
-`brew cask install android-platform-tools`
-`brew cask install java`
+* `brew cask install android-platform-tools`
+* `brew cask install java`
 
 This situation is similar to downloading a new Mac app from any developer online. Some developers want to distribute apps without the restrictions placed on them by Apple and can run unsigned code - with some restrictions.
 
